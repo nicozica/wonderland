@@ -1,0 +1,38 @@
+@import 'utilities/typography';
+
+// En el archivo Gallery.scss
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-item {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+  
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  
+    p {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    // Estilo del efecto de nébula
+    &.nebula-effect {
+      filter: saturate(150%) blur(8px);
+      box-shadow: 0 4px 6px rgba(255, 0, 0, 0.4); // Puedes ajustar el color según tus preferencias
+    }
+  }
+  
+  
