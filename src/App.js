@@ -4,11 +4,11 @@ import Gallery from './components/Gallery';
 
 function App() {
   const [images, setImages] = useState([
-    { id: 1, title: 'Wonder Woman', filename: 'image01.jpg' },
-    { id: 2, title: 'Around the World', filename: 'image02.jpg' },
-    { id: 3, title: 'Sitting at the park', filename: 'image03.jpg' },
-    { id: 4, title: 'Matecito', filename: 'image04.jpg' },
-    { id: 5, title: 'Ethereal', filename: 'image05.jpg' },
+    { id: 1, title: 'Matecito', filename: 'image01.jpg' },
+    { id: 2, title: 'Ethereal', filename: 'image02.jpg' },
+    { id: 3, title: 'On the bus', filename: 'image03.jpg' },
+    { id: 4, title: 'Manhattan', filename: 'image04.jpg' },
+    { id: 4, title: 'Apocalypse', filename: 'image05.jpg' },
     // Agrega más imágenes según sea necesario
   ]);
 
