@@ -5,10 +5,11 @@ import Gallery from './components/Gallery';
 function App() {
   const [images, setImages] = useState([
     { id: 1, title: 'Matecito', filename: 'image01.jpg' },
-    { id: 2, title: 'Ethereal', filename: 'image02.jpg' },
-    { id: 3, title: 'On the bus', filename: 'image03.jpg' },
-    { id: 4, title: 'Manhattan', filename: 'image04.jpg' },
-    { id: 4, title: 'Apocalypse', filename: 'image05.jpg' },
+    { id: 2, title: 'Manhattan', filename: 'image02.jpg' },
+    { id: 3, title: 'Apocalypse', filename: 'image03.jpg' },
+    { id: 4, title: 'Mondricats', filename: 'image04.jpg' },
+    { id: 5, title: 'Fuscaldo', filename: 'image05.jpg' },
+    { id: 6, title: 'Sunset', filename: 'image06.jpg' },
     // Agrega más imágenes según sea necesario
   ]);
 
@@ -21,7 +22,10 @@ function App() {
       <div className="container">
         <h1 className='my-4'>Welcome to Wonderland</h1>
         <Gallery images={reversedImages} />
+        <hr></hr>
+        <h2 className='h5 my-4'>©2024 Argensonix Multimedia</h2>
       </div>
+      
     </div>
   );
 }
