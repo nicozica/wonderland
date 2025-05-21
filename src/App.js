@@ -10,6 +10,8 @@ function App() {
     { id: 4, title: 'Mondricats', filename: 'image04.jpg' },
     { id: 5, title: 'Fuscaldo', filename: 'image05.jpg' },
     { id: 6, title: 'Sunset', filename: 'image06.jpg' },
+    { id: 7, title: 'Delicious Pancake', filename: 'image07.jpg' },
+    { id: 8, title: 'Down the road', filename: 'image08.jpg' },
     // Agrega más imágenes según sea necesario
   ]);
 
