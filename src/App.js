@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Gallery from './components/Gallery';
 
 function App() {
-  const [images, setImages] = useState([
+  const [images] = useState([
     { id: 1, title: 'Matecito', filename: 'image01.jpg' },
     { id: 2, title: 'Manhattan', filename: 'image02.jpg' },
     { id: 3, title: 'Apocalypse', filename: 'image03.jpg' },
@@ -12,6 +12,7 @@ function App() {
     { id: 6, title: 'Sunset', filename: 'image06.jpg' },
     { id: 7, title: 'Delicious Pancake', filename: 'image07.jpg' },
     { id: 8, title: 'Down the road', filename: 'image08.jpg' },
+    { id: 9, title: 'Colibrí', filename: 'image09.png' },
     // Agrega más imágenes según sea necesario
   ]);
 
